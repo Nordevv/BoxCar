@@ -1,0 +1,158 @@
+.vehicles{
+    width: 100%;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+button{
+    cursor: pointer;
+    background:none;
+    border: none;
+    font-weight: 600;
+}
+.SearchCategory{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.571);
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.SearchCategory button{
+    background:none;
+    border: none;
+    padding:10px 20px;
+    font-weight: 600;
+    font-size: 19px;
+    cursor: pointer;
+}
+.NewCars{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px ;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+
+    
+}
+.theNewCar{
+    width:380px;
+    /* background-color: #EFB6C8; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border: 1px solid rgba(128, 128, 128, 0.486);
+    text-align: left;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 26px auto;
+
+}
+.theNewCar:hover{
+    border:  1px solid gray;
+    transition: 0.6s all;
+    
+    .image img{
+        transform: scale(1.04);
+        overflow: hidden;
+    }
+}
+.theNewCar .image{
+    width: 380px;
+    height: 250px;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 20px 20px 0 0;
+
+}
+.theNewCar .image img{
+    width: 380px;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+    transition:  0.6s ;
+}
+.CarTools h3 span {
+    color: #344CB7;
+    font-size: 15px;
+    margin: 0 8px;
+}
+.About{
+    width: 85%;
+    margin: 0 auto;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.529);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.AboutCar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 10px auto;
+    padding: 18px 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.529);
+}
+.About p{
+    padding-bottom: 19px ;
+}
+.AboutCar i{
+    font-size: 20px;
+    color: #344CB7;
+}
+.miles , .petrol , .type{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 6px;
+}
+.CarTools{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.CarTools h3{
+    width: fit-content;
+}
+.CarTools button{
+    border: none;
+    background:none;
+    color: #344CB7;
+    cursor: pointer;
+}
+.vehicles .tools{
+    width: fit-content;
+    margin: 0 auto;
+}
+@media (max-width: 850px) {
+    .vehicles .tools h1{
+        font-size: 30px;
+    }
+    .theNewCar {
+        width: 100%;
+    }
+    .theNewCar .image{
+        width: 100%;
+        overflow: hidden;
+    }
+    .theNewCar img{
+        width: 100%;
+    }
+}

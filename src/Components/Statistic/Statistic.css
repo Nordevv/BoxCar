@@ -1,0 +1,156 @@
+.ads{
+    height: auto;
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #E8F9FF;
+    margin: 10px auto;
+    border-radius: 25px;
+    padding: 0 40px;
+}
+.ads .video{
+    background-image: url('car-7541935_1280.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 650px;
+    border-radius: 25px;
+    position: relative;
+    margin: 18px 0;
+}
+.video i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 70px;
+    color: white;
+    cursor: pointer;
+}
+.ads section{
+    width: 600px;
+    height: 650px;
+    position: relative;
+
+}
+.ads section .description{
+    width: 100%;
+    margin: auto;
+    padding: 0 40px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+.ads section .description h1{
+    font-size: 46px;
+    letter-spacing: 1px;
+}
+.ads section ul li i{
+    background-color: white;
+    padding: 6px;
+    border-radius: 50%;
+    margin: 0 6px;
+}
+.ads ul{
+    width: 100%;
+}
+.ads ul li {
+    margin: 18px 0;
+}
+.ads p , ul li{
+    font-weight: 600;
+}
+.ads button{
+    background-color: blue;
+    color: white;
+    padding: 12px 14px;
+    border-radius: 10px;
+    font-size: 28px;
+}
+
+.statistics{
+    width: 92%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10%;
+    padding: 40px 0;
+    margin: 10px auto;
+    border-bottom: 1px solid gray;
+    
+}
+.statistics h1{
+    font-size: 50px;
+}
+.statistics h5{
+    font-size: 16px;
+}
+.offers{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: start;
+    text-align: left;
+    padding: 40px 0;
+    width: 90%;
+    margin: 0 auto;
+
+}
+.offers-cards{
+    width: 96%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* gap: 10px; */
+    margin: 0 auto;
+}
+.offer{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    text-align: left;
+    gap: 10px;
+    width: 300px;
+    margin: 0 auto;
+}
+.offer img{
+    width: 110px;
+}
+@media (max-width: 850px) {
+    .ads{
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+        background: none;
+        width: 100%;
+        margin: 40px 0;
+        gap: 50px;
+    }
+    .ads .video{
+        width: 100%;
+        margin: 18px auto;
+        width: 80%;
+        height: 400px;
+    }
+    .ads section{
+        width: 100%;
+    }
+    .statistics h1{
+        font-size: 30px;
+    }
+    .statistics h5{
+        font-size: 16px;
+    }
+}
