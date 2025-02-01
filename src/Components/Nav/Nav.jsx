@@ -18,7 +18,7 @@ export default function Nav() {
   return (
     <nav className={Mobile ? 'NavMobile' : 'Nav'} >
       <div className='NavTools' >
-        <h1 className="logo">BoxCargit</h1>
+        <h1 className="logo">BoxCar</h1>
         <p><i class="fa-solid fa-magnifying-glass"></i> <span>Search Cars </span></p>
       </div>
       <i class="fa-solid fa-bars" style={{display : Mobile ? 'none' : ''}}  onClick={()=> setMobile(true)  } ></i>
