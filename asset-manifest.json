@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/BoxCar/static/css/main.711da16e.css",
+    "main.js": "/BoxCar/static/js/main.af602147.js",
+    "static/js/488.a6fde2ed.chunk.js": "/BoxCar/static/js/488.a6fde2ed.chunk.js",
+    "static/media/181536-866999858_small.mp4": "/BoxCar/static/media/181536-866999858_small.043a55be62c2dd2570a9.mp4",
+    "static/media/car-7541935_1280.jpg": "/BoxCar/static/media/car-7541935_1280.8273033a27d4361d41d0.jpg",
+    "index.html": "/BoxCar/index.html",
+    "main.711da16e.css.map": "/BoxCar/static/css/main.711da16e.css.map",
+    "main.af602147.js.map": "/BoxCar/static/js/main.af602147.js.map",
+    "488.a6fde2ed.chunk.js.map": "/BoxCar/static/js/488.a6fde2ed.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.711da16e.css",
+    "static/js/main.af602147.js"
+  ]
+}
